@@ -64,6 +64,7 @@ class Voxel(Button):
             if key == 'left mouse down':
                 destroy(self)
             
+            
 class Sky(Entity):
     def __init__(self):
         super().__init__(
